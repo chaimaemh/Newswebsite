@@ -9,15 +9,11 @@ export class NewsapiservicesService {
 
   constructor(private _http:HttpClient) { }
 
-  newsApiUrl = "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=7c6e9f066014456f8d95b780f7411655"
+  newsApiUrl = "https://newsapi.org/v2/everything?q=tesla&from=2023-10-07&sortBy=publishedAt&apiKey=7c6e9f066014456f8d95b780f7411655"
 
   //BusinessNewsapiurl
 
   businessApiUrl = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=7c6e9f066014456f8d95b780f7411655"
-
-
-
-
 
 //topheading()
 

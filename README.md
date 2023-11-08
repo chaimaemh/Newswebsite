@@ -1,27 +1,44 @@
-# Projetchaimae
+# News Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+Ce projet "News Website" est une application web qui propose une expérience d'actualités complète en mettant en avant deux principales catégories :
 
-## Development server
+- **Home** : Offrant une source fiable d'informations générales sur une variété de sujets, y compris la politique, la société, la culture, la technologie et bien d'autres.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Business News** : Se concentrant sur les informations économiques et financières, couvrant les marchés financiers, les entreprises, les investissements et les tendances économiques.
 
-## Code scaffolding
+## Prérequis
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Node.js (v18.18.2)
+- npm (version 10.2.2)
+- Angular CLI (version 16.2.9)
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clonez le référentiel depuis GitHub :
+ https://github.com/chaimaemh/Newswebsite.git
 
-## Running unit tests
+2. Accédez au répertoire du projet :
+ cd NewsWebsite
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Installez les dépendances en utilisant npm :
+ npm install
 
-## Running end-to-end tests
+## Utilisation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Pour lancer l'application en mode de développement :
+ ng serve
 
-## Further help
+- Ouvrez votre navigateur à l'adresse http://localhost:4200/ pour voir l'application en cours d'exécution.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Structure du Projet
+
+/
+|-- src/
+| |-- app/
+| | |-- components/
+| | |-- services/
+| |-- assets/
+| |-- ...
+|-- package.json
+|-- ...
+

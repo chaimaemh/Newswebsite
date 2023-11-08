@@ -5,7 +5,7 @@ import { BusinessnewsComponent } from './businessnews/businessnews.component';
 
 
 const routes: Routes = [
-  {path:'',component:TopheadingComponent}, //home
+  {path:'',component:TopheadingComponent}, //home 
   {path:'business',component:BusinessnewsComponent}, //business News
 ];
 

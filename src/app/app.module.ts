@@ -9,6 +9,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {NewsapiservicesService} from './service/newsapiservices.service';
 import { BusinessnewsComponent } from './businessnews/businessnews.component';
 import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    LoadingBarHttpClientModule
+    LoadingBarHttpClientModule,
+    NgxPaginationModule,
   ],
   providers: [NewsapiservicesService],
   bootstrap: [AppComponent]
