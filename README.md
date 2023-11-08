@@ -30,15 +30,4 @@ Ce projet "News Website" est une application web qui propose une expérience d'a
 
 - Ouvrez votre navigateur à l'adresse http://localhost:4200/ pour voir l'application en cours d'exécution.
 
-## Structure du Projet
-
-/
-|-- src/
-| |-- app/
-| | |-- components/
-| | |-- services/
-| |-- assets/
-| |-- ...
-|-- package.json
-|-- ...
 
